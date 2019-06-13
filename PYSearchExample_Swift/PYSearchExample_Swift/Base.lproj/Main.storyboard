@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K3d-Ca-KZV">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PYSearchExample_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CXW-5y-gM7">
+                                <rect key="frame" x="132" y="188" width="150" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="lpZ-YM-J5c"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Push"/>
+                                    <segment title="Present"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIa-vJ-VxO">
+                                <rect key="frame" x="153" y="236" width="108" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7uv-at-Gob"/>
+                                </constraints>
+                                <state key="normal" title="Show PYSearch"/>
+                                <connections>
+                                    <action selector="onBtnShowClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Emo-YX-QHF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XIa-vJ-VxO" firstAttribute="top" secondItem="CXW-5y-gM7" secondAttribute="bottom" constant="20" id="QGN-x1-saD"/>
+                            <constraint firstItem="XIa-vJ-VxO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bab-PM-AY3"/>
+                            <constraint firstItem="CXW-5y-gM7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g7b-Gs-Qk0"/>
+                            <constraint firstItem="CXW-5y-gM7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="pYf-ZD-aPQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="27s-nl-gSi"/>
+                    <connections>
+                        <outlet property="segType" destination="CXW-5y-gM7" id="CFb-mJ-oI7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="40"/>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="UxR-8t-J0Q">
+            <objects>
+                <viewController storyboardIdentifier="ResultsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qMy-CQ-hPN" customClass="ResultsViewController" customModule="PYSearchExample_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QSa-jS-FQb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1f-wn-De8">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B1f-wn-De8" firstAttribute="centerY" secondItem="QSa-jS-FQb" secondAttribute="centerY" id="1bd-Be-Gc7"/>
+                            <constraint firstItem="B1f-wn-De8" firstAttribute="centerX" secondItem="QSa-jS-FQb" secondAttribute="centerX" id="7KE-Hb-bn9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S10-yp-3dh"/>
+                    </view>
+                    <connections>
+                        <outlet property="edtSearchText" destination="B1f-wn-De8" id="Gzh-CC-fO8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJH-dR-FwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1293" y="40"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="e0n-qk-Zyh">
+            <objects>
+                <navigationController id="K3d-Ca-KZV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GMP-Ho-57w">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="klU-8T-z2O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Sz-b0-cuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="40"/>
+        </scene>
+    </scenes>
+</document>

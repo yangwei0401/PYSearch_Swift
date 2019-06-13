@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D161994C22B2866100780128 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D161994B22B2866100780128 /* PYSearch.bundle */; };
+		D161994E22B2867900780128 /* PYSearchConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161994D22B2867900780128 /* PYSearchConst.swift */; };
+		D161995022B2873A00780128 /* NSBundle+PYSearchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161994F22B2873A00780128 /* NSBundle+PYSearchExtension.swift */; };
+		D161995222B2874F00780128 /* UIView+PYSearchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161995122B2874F00780128 /* UIView+PYSearchExtension.swift */; };
+		D161995422B2875800780128 /* UIColor+PYSearchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161995322B2875800780128 /* UIColor+PYSearchExtension.swift */; };
+		D161995A22B28DD800780128 /* PYSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161995922B28DD800780128 /* PYSearchViewController.swift */; };
+		D161995C22B2947D00780128 /* PYSearchSuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161995B22B2947D00780128 /* PYSearchSuggestionViewController.swift */; };
+		D1FF62FC22B239B0004CA532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF62FB22B239B0004CA532 /* AppDelegate.swift */; };
+		D1FF62FE22B239B0004CA532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF62FD22B239B0004CA532 /* ViewController.swift */; };
+		D1FF630122B239B0004CA532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF62FF22B239B0004CA532 /* Main.storyboard */; };
+		D1FF630322B239B1004CA532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FF630222B239B1004CA532 /* Assets.xcassets */; };
+		D1FF630622B239B1004CA532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FF630422B239B1004CA532 /* LaunchScreen.storyboard */; };
+		D1FF633522B23FB5004CA532 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF633422B23FB5004CA532 /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D161994B22B2866100780128 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		D161994D22B2867900780128 /* PYSearchConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYSearchConst.swift; sourceTree = "<group>"; };
+		D161994F22B2873A00780128 /* NSBundle+PYSearchExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBundle+PYSearchExtension.swift"; sourceTree = "<group>"; };
+		D161995122B2874F00780128 /* UIView+PYSearchExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PYSearchExtension.swift"; sourceTree = "<group>"; };
+		D161995322B2875800780128 /* UIColor+PYSearchExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+PYSearchExtension.swift"; sourceTree = "<group>"; };
+		D161995922B28DD800780128 /* PYSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYSearchViewController.swift; sourceTree = "<group>"; };
+		D161995B22B2947D00780128 /* PYSearchSuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PYSearchSuggestionViewController.swift; sourceTree = "<group>"; };
+		D1FF62F822B239B0004CA532 /* PYSearchExample_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYSearchExample_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FF62FB22B239B0004CA532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1FF62FD22B239B0004CA532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1FF630022B239B0004CA532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1FF630222B239B1004CA532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1FF630522B239B1004CA532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1FF630722B239B1004CA532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FF633422B23FB5004CA532 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1FF62F522B239B0004CA532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D161994A22B2866100780128 /* PYSearch_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D161994B22B2866100780128 /* PYSearch.bundle */,
+				D161994D22B2867900780128 /* PYSearchConst.swift */,
+				D161994F22B2873A00780128 /* NSBundle+PYSearchExtension.swift */,
+				D161995122B2874F00780128 /* UIView+PYSearchExtension.swift */,
+				D161995322B2875800780128 /* UIColor+PYSearchExtension.swift */,
+				D161995922B28DD800780128 /* PYSearchViewController.swift */,
+				D161995B22B2947D00780128 /* PYSearchSuggestionViewController.swift */,
+			);
+			name = PYSearch_Swift;
+			path = ../../PYSearch_Swift;
+			sourceTree = "<group>";
+		};
+		D1FF62EF22B239B0004CA532 = {
+			isa = PBXGroup;
+			children = (
+				D1FF62FA22B239B0004CA532 /* PYSearchExample_Swift */,
+				D1FF62F922B239B0004CA532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1FF62F922B239B0004CA532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF62F822B239B0004CA532 /* PYSearchExample_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1FF62FA22B239B0004CA532 /* PYSearchExample_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D161994A22B2866100780128 /* PYSearch_Swift */,
+				D1FF62FB22B239B0004CA532 /* AppDelegate.swift */,
+				D1FF62FD22B239B0004CA532 /* ViewController.swift */,
+				D1FF633422B23FB5004CA532 /* ResultsViewController.swift */,
+				D1FF62FF22B239B0004CA532 /* Main.storyboard */,
+				D1FF630222B239B1004CA532 /* Assets.xcassets */,
+				D1FF630422B239B1004CA532 /* LaunchScreen.storyboard */,
+				D1FF630722B239B1004CA532 /* Info.plist */,
+			);
+			path = PYSearchExample_Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1FF62F722B239B0004CA532 /* PYSearchExample_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1FF630A22B239B1004CA532 /* Build configuration list for PBXNativeTarget "PYSearchExample_Swift" */;
+			buildPhases = (
+				D1FF62F422B239B0004CA532 /* Sources */,
+				D1FF62F522B239B0004CA532 /* Frameworks */,
+				D1FF62F622B239B0004CA532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYSearchExample_Swift;
+			productName = PYSearchExample_Swift;
+			productReference = D1FF62F822B239B0004CA532 /* PYSearchExample_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1FF62F022B239B0004CA532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Maxthon;
+				TargetAttributes = {
+					D1FF62F722B239B0004CA532 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D1FF62F322B239B0004CA532 /* Build configuration list for PBXProject "PYSearchExample_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1FF62EF22B239B0004CA532;
+			productRefGroup = D1FF62F922B239B0004CA532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FF62F722B239B0004CA532 /* PYSearchExample_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1FF62F622B239B0004CA532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1FF630622B239B1004CA532 /* LaunchScreen.storyboard in Resources */,
+				D161994C22B2866100780128 /* PYSearch.bundle in Resources */,
+				D1FF630322B239B1004CA532 /* Assets.xcassets in Resources */,
+				D1FF630122B239B0004CA532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1FF62F422B239B0004CA532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D161995022B2873A00780128 /* NSBundle+PYSearchExtension.swift in Sources */,
+				D161995222B2874F00780128 /* UIView+PYSearchExtension.swift in Sources */,
+				D161994E22B2867900780128 /* PYSearchConst.swift in Sources */,
+				D161995C22B2947D00780128 /* PYSearchSuggestionViewController.swift in Sources */,
+				D1FF633522B23FB5004CA532 /* ResultsViewController.swift in Sources */,
+				D1FF62FE22B239B0004CA532 /* ViewController.swift in Sources */,
+				D161995A22B28DD800780128 /* PYSearchViewController.swift in Sources */,
+				D161995422B2875800780128 /* UIColor+PYSearchExtension.swift in Sources */,
+				D1FF62FC22B239B0004CA532 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1FF62FF22B239B0004CA532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FF630022B239B0004CA532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1FF630422B239B1004CA532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1FF630522B239B1004CA532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1FF630822B239B1004CA532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1FF630922B239B1004CA532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1FF630B22B239B1004CA532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYSearchExample_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Maxthon.PYSearchExample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1FF630C22B239B1004CA532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYSearchExample_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Maxthon.PYSearchExample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1FF62F322B239B0004CA532 /* Build configuration list for PBXProject "PYSearchExample_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FF630822B239B1004CA532 /* Debug */,
+				D1FF630922B239B1004CA532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1FF630A22B239B1004CA532 /* Build configuration list for PBXNativeTarget "PYSearchExample_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FF630B22B239B1004CA532 /* Debug */,
+				D1FF630C22B239B1004CA532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1FF62F022B239B0004CA532 /* Project object */;
+}
